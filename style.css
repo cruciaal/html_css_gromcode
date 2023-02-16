@@ -1,0 +1,18 @@
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex: 0 0 300px; */
+}
+article {
+  flex: 1 1 300px;
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+}
+
+.article {
+  display: block;
+}
+h1 {
+  text-align: center;
+}
