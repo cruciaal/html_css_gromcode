@@ -1,17 +1,18 @@
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  /* flex: 0 0 300px; */
 }
 article {
-  flex: 1 1 300px;
-  margin: 8px;
-  padding: 16px;
-  background-color: bisque;
 }
 
 .article {
+  flex-basis: 300px;
+  flex-grow: 1;
   display: block;
+  /* flex: 1 1 300px; */
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
 }
 h1 {
   text-align: center;
